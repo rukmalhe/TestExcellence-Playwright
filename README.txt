@@ -20,7 +20,7 @@ Note: Modify tsconfig.json based on your project environment.
 
 ## Install D365-UI-Test
 
-To be added...
+npm install d365-ui-test
 
 ------------------------------------------
 
