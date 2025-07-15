@@ -40,4 +40,4 @@ npx playwright test
 ------------------------------------------
 
 ## CI/CD Integration (Azure DevOps)
-To be documented...
+Create `.azure-pipelines.yml` with your pipeline configuration to install dependencies and run tests on each commit.
