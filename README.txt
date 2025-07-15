@@ -1,29 +1,24 @@
-###### Playwright code samples with python #########
-####### Integrate into CI/CD pipeline in AWS CodePipeline ####
-
-# AWS Key Services: 
-1.	AWS CodeCommit,  (GitHub, Bitbucket)
-2.	CodePipeline, 
-3.	CodeBuild, (Jenkin CI)
-4.	CodeDeploy, (Jenkins, Spinnaker)
-5.	CodeStar, 
-6.	CoceArtifact, 
-7.	CodeGuru
-
+###### D365-UI-Test with playwright and TypeScripts #########
+####### Integrate into CI/CD pipeline in Azure CI/CD ####
 
 
 #Pre requisits
     install vs code
-    install python
-    install pip
-    set installation path in $PATH
+    install Node.js
+    install git
 
-# How to install playwright Pytest plugging in vscode
-    open an terminal in vscode
-    execute below command to install pytest pluging
-        pip install pytest-playwright
-    execute blow command to install required browsers
-        playwright install
+# How to Install Playwright + TypeScript, and configure
+    npm i -D playwright typescript ts-node @playwright/test
+    npx playwright install
+
+    npx tsc --init
+
+    Note: modify tesconfig.json according to your env
+
+
+ # install D365-UI-Test
+    
+
 
 # How to upgrade playwright
     pip install pytest-playwright playwright -U
